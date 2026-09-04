@@ -57,7 +57,7 @@ Research Gap Analysis
 
 ### 1. Research Paper Analysis
 
-Approximately 45 research papers are reviewed to identify:
+Approximately 10 research papers are reviewed to identify:
 
 * Dataset used
 * Dataset characteristics
@@ -170,8 +170,7 @@ Dataset sources, preprocessing steps, hyperparameter configurations, and experim
 
 ## Authors
 
-* Riva
-* [Collaborator Name]
+* Areeba Ali
 
 ## Status
 
