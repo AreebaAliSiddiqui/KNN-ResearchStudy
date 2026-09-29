@@ -1,0 +1,13 @@
+Dataset,Paper Accuracy,Euclidean K,Euclidean Accuracy,Manhattan K,Manhattan Accuracy,Minkowski K,Minkowski Accuracy,Best Metric,Best K,Best Accuracy,Beat Paper?,Result Note
+Dataset A,85.71%,5,81.17%,3,86.36%,1,79.22%,Manhattan,3,86.36%,YES,
+Dataset B (Heart Disease Cleveland),64.03%,5,90.16%,7,93.44%,15,86.89%,Manhattan,7,93.44%,YES,Better than paper (paper: 64.03%)
+Dataset C (Diabetes - vs TeIKa paper),74.00%,5,81.17%,3,86.36%,1,79.22%,Manhattan,3,86.36%,YES,"Better than paper (paper: 74.00%); same underlying data as Dataset A, different paper benchmark"
+Dataset D (Breast Cancer Wisconsin - Diagnostic),90.00%,5,95.61%,3,96.49%,5,94.74%,Manhattan,3,96.49%,YES,Better than paper (paper: 90.00%)
+Dataset E (Diabetes),93.46%,1,96.15%,1,96.15%,1,97.12%,Minkowski,1,97.12%,YES,Better than paper (paper: 93.46%)
+Dataset F (Heart Disease),87.00%,5,90.00%,9,88.33%,5,90.00%,Euclidean & Minkowski (tie),5,90.00%,YES,Close/comparable to paper (paper reports 87.00% / 90.78% depending on source)
+Dataset G (Breast Cancer Tumors),,5,95.61%,3,96.49%,5,94.74%,Manhattan,3,96.49%,,Strong result (paper accuracy not available / N/A for comparison)
+Dataset H (Bonus — Haberman's),80.95%,22,70.97%,18,70.97%,24,69.35%,Euclidean & Manhattan (tie),22 / 18,70.97%,NO,"Lower than paper — small, imbalanced dataset"
+Dataset I,85.62%,1,62.50%,1,62.50%,1,63.44%,Minkowski,1,63.44%,NO,Lower than paper (paper: 85.62%); likely multi-class quality label (0-10) vs paper's simplified target
+Dataset J,99.00%,1,100.00%,1,100.00%,1,100.00%,Euclidean,1,100.00%,YES,Better than paper (paper: 99.00%)
+Dataset K,71.27%,11,81.01%,7,79.89%,29,81.01%,Euclidean,11,81.01%,YES,Better than paper (paper: 71.27%)
+Dataset L,100.00%,1,100.00%,1,100.00%,1,100.00%,Euclidean,1,100.00%,NO,Matched paper exactly (paper: 100.00%)
